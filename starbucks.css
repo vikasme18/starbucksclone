@@ -1,0 +1,658 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav-container{
+    max-width: 1500px;
+    margin: auto;
+}
+
+.box-container{
+    max-width: 1275px;
+    margin: auto;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+ul li{
+    list-style: none;
+}
+
+/* NAVIGATION SECTION */
+
+.nav-wrapper{
+    display: flex;
+    align-items: center;
+    padding: 25px;
+}
+
+.nav2nd-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    padding-left: 45%;
+}
+
+.logo img{
+    width: 60px;
+    cursor: pointer;
+}
+
+nav ul{
+    display: flex;
+    gap: 25px;
+}
+
+nav ul a{
+    color: black;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+nav ul a:hover{
+    
+}
+
+.nav-icon{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.find-store{
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.find-store:hover{
+    
+}
+
+.bxs-store{
+    font-size: 1rem;
+}
+
+.nav-link-button{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.btn-one{
+    font-size: 1rem;
+    text-decoration: none;
+    background-color: white;
+    border: 1px solid black;
+    padding: 6px 16px;
+    border-radius: 50px;
+    color: black;
+    font-weight: 500;
+}
+
+.btn-one:hover{
+    background-color: black;
+    color: white;
+}
+
+.btn-two{
+    font-size: 1rem;
+    font-weight: 500;
+    text-decoration: none;
+    background-color: black;
+    padding: 6px 16px;
+    border-radius: 50px;
+    color: white;
+}
+
+.btn-two:hover{
+    font-weight: 500;
+    background-color: white;
+    border: solid 1px;
+    color: black;
+}
+
+#menu-icon{
+    font-size: 30px;
+    color: #292929;
+    z-index: 1000;
+    cursor: pointer;
+    display: none;
+}
+
+/* NEW YEAR SECTION */
+#new-year-inner {
+    width: 95%;
+    margin: auto;
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+#new-year-desc {
+    width: 50%;
+}
+
+#new-year-img {
+    width: 50%;
+}
+
+#new-year-img > img {
+    height: 100%;
+}
+
+#new-year-desc{
+    background-color: rgb(187,242,209);
+}
+
+#new-year-desc h2{
+    color: rgb(30,57,50);
+}
+
+#new-year-desc a{
+    font-size: 1rem;
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 6px 16px;
+    border-radius: 50px;
+    color: black;
+    font-weight: 400;
+    display: inline-block;
+    
+}
+
+#new-year-desc a:hover{
+    border: 1px solid white;
+    color: white;
+    background-color: #004E34;
+}
+
+#new-year-desc {
+    display: flex;
+    align-items: center;
+}
+
+#new-year-desc-inner {
+    margin: 0 20%;
+    text-align: center;
+}
+
+#new-year-desc-inner > h2 {
+    font-size: 2.7rem;
+}
+
+#new-year-desc-inner > p {
+    font-size: 1.3rem;
+}
+
+/* GIFT CARD SECTION */
+#gift-card-inner {
+    width: 95%;
+    margin: auto;
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+#gift-card-img, #gift-card-desc {
+    width: 50%;
+    
+}
+
+#gift-card-desc { 
+    background-color: rgb(30,57,50);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    align-items: center;
+}
+
+#gift-card-desc-inner {
+    width: 80%;
+}
+
+#gift-card-img > img {
+    height: 100%;
+}
+
+#gift-card-desc-inner a{
+    font-size: 1rem;
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 6px 16px;
+    border-radius: 50px;
+    color: white;
+    font-weight: 400;
+    display: inline-block;
+    
+}
+
+/* Hazelnut Section */
+#hazelnut-inner {
+    width: 95%;
+    margin: auto;
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+#hazelnut-desc, #hazelnut-img {
+    width: 50%;
+}
+
+#pistachios-img > img {
+    height: 100%;
+}
+
+#hazelnut-desc {
+    background-color: rgb(239,171,252);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: rgb(30,57,50);
+}
+
+#hazelnut-img > img {
+    height: 100%;
+}
+
+#hazelnut-desc-inner {
+    margin: 0 10%;
+    text-align: center;
+}
+
+#hazelnut-desc-inner h1 {
+    font-size: 3rem;
+    font-weight: 500;
+
+}
+
+#hazelnut-desc-inner p {
+    font-size: 1.3rem;
+    font-weight: 500;
+
+}
+
+#hazelnut-desc-inner a{
+    font-size: 1rem;
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 6px 16px;
+    border-radius: 50px;
+    color: black;
+    font-weight: 400;
+    display: inline-block;
+    
+}
+
+
+
+/* Pistachios Section */
+#pistachios-inner {
+    width: 95%;
+    margin: auto;
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+#pistachios-desc, #pistachios-img {
+    width: 50%;
+}
+
+#pistachios-desc {
+    background-color: rgb(178,178,103);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+#pistachios-desc-inner {
+    width: 70%;
+    color: rgb(30,57,50);
+}
+
+#pistachios-img > img {
+    height: 100%;
+}
+
+#pistachios-desc-inner a{
+    font-size: 1rem;
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 6px 16px;
+    border-radius: 50px;
+    color: black;
+    font-weight: 400;
+    display: inline-block;
+    
+}
+
+#pistachios-desc-inner h1 {
+    font-size: 3rem;
+    font-weight: 500;
+
+}
+
+#pistachios-desc-inner p {
+    font-size: 1.3rem;
+    font-weight: 500;
+
+}
+
+
+/* delicious Section */
+#delicious-inner {
+    width: 95%;
+    margin: auto;
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+#delicious-desc, #delicious-img {
+    width: 50%;
+}
+
+#delicious-desc {
+    background-color: rgb(238,192,171);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+#delicious-desc-inner {
+    width: 70%;
+    color: rgb(30,57,50);
+}
+
+#delicious-img > img {
+    height: 100%;
+}
+
+#delicious-desc-inner a{
+    font-size: 1rem;
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 6px 16px;
+    border-radius: 50px;
+    color: black;
+    font-weight: 400;
+    display: inline-block;
+    
+}
+
+#delicious-desc-inner h1 {
+    font-size: 3rem;
+    font-weight: 500;
+
+}
+
+#delicious-desc-inner p {
+    font-size: 1.3rem;
+    font-weight: 500;
+
+}
+
+
+
+
+/* New Collection Section */
+#collection-inner {
+    width: 95%;
+    margin: auto;
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+#collection-desc, #collection-img {
+    width: 50%;
+}
+
+#collection-desc {
+    background-color: rgb(51,116,129);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+#collection-desc-inner {
+    width: 70%;
+    color: white;
+}
+
+.discount { 
+    width: 95%;
+    margin: auto;
+}
+
+.discount > div {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+}
+
+
+#collection-img > img {
+    height: 100%;
+}
+
+#collection-desc-inner a{
+    font-size: 1rem;
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 6px 16px;
+    border-radius: 50px;
+    color: white;
+    font-weight: 400;
+    display: inline-block;
+    
+}
+
+/* DISCOUNT */
+.discount div {
+    margin-bottom: 2rem;
+}
+
+.discount > div > p {
+    font-size: 14px;
+}
+
+/* FOOTER SECTION */
+#footer {
+    padding-top: 1.5rem;
+    box-shadow: 0 -1px 3px rgba(0,0,0,.1), 0 -2px 2px rgba(0,0,0,.06), 0 0 2px rgba(0,0,0,.07);
+}
+
+#footer-cont {
+    width: 95%;
+    margin: auto;
+    
+}
+
+#footer-ulist-cont {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+
+}
+
+.footer-inner-link {
+    width: 190px;
+    max-width: 195px;
+    margin-right: 2rem;
+}
+
+.footer-inner-link > h2 {
+    font-weight: 400;
+    font-size: 1.1rem;
+    margin-top: 0;
+}
+
+.footer-inner-link > ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-inner-link > ul > li {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.footer-inner-link > ul > li > a {
+    text-decoration: none;
+    font-size: 14px;
+    color: rgb(120,115,114);
+    padding-top: 5px;
+}
+
+#footer-icon-list {
+    display: flex;
+    padding: 0;
+
+}
+
+#footer-icon-list > li  {
+    font-size: 2rem;
+    padding: 5px 5px 5px 0;
+    margin-right: 1rem;
+}
+
+#footer-icon-list > li > a {
+    color: black;
+}
+
+#footer-icon-list > li > a > i {
+    border-radius: 50%;
+}
+
+#footer-links-ulist {
+    padding: 0;
+    display: flex;
+}
+
+#footer-links-ulist > li > a {
+    color: black;
+    text-decoration: none;
+}
+
+#footer-links-ulist > li > a:hover {
+    text-decoration: underline;
+}
+
+#footer-links-ulist > span {
+    padding: 0 7px;
+    color: rgb(155,107,136);
+}
+
+#footer-para {
+    color: grey;
+    font-size: 13px;
+}
+
+.f-ml {
+    padding-left: 12px;
+}
+
+.f-mr {
+    padding-right: 12px;
+}
+
+@media (max-width: 600px) {
+    #new-year-inner {
+        display: block;
+    }
+
+    #gift-card-inner {
+        display: block;
+    }
+
+    #hazelnut-inner {
+        display: block;
+    }
+
+    #pistachios-inner {
+        display: block;
+    }
+
+    #delicious-inner {
+        display: block;
+    }
+
+    #collection-inner {
+        display: block;
+
+    }
+
+    #new-year-desc, #new-year-img {
+        width: 100%;
+    }
+
+    #new-year-desc-inner {
+        margin: 2rem;
+    }
+
+    #new-year-desc-inner > h2 {
+        font-size: 1.7rem;
+    }
+
+    #gift-card-desc, #gift-card-img {
+        width: 100%;
+    }
+
+    #gift-card-desc-inner {
+        margin: 2rem;
+    }
+
+    #hazelnut-desc, #hazelnut-img {
+        width: 100%;
+    }
+
+    #hazelnut-desc-inner {
+        margin: 2rem;
+    }
+
+    #hazelnut-desc-inner > h1 {
+        font-size: 1.7rem;
+    }
+
+    #pistachios-desc, #pistachios-img {
+        width: 100%;
+    }
+
+    #pistachios-desc-inner {
+        margin: 2rem;
+    }
+
+    #pistachios-desc-inner > h1 {
+        font-size: 1.7rem;
+    }
+
+    #delicious-desc, #delicious-img {
+        width: 100%;
+    }
+
+    #delicious-desc-inner {
+        margin: 2rem;
+    }
+
+    #collection-desc, #collection-img {
+        width: 100%;
+    }
+    #collection-desc-inner {
+        margin: 2rem;
+    }
+}
